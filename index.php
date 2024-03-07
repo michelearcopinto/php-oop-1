@@ -7,11 +7,11 @@ class MovieTheater
     public $postcode;
 
 
-    public function __construct($street, $city, $postcode)
+    public function __construct($_street, $_city, $_postcode)
     {
-        $this->street = $street;
-        $this->city = $city;
-        $this->postcode = $postcode;
+        $this->street = $_street;
+        $this->city = $_city;
+        $this->postcode = $_postcode;
     }
 
     public static function isOpen()
