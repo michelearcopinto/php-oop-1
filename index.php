@@ -26,8 +26,8 @@ class Movie
     public $regista;
     public $anno;
     public $genere;
-    public $address;
     public static $is_available;
+    public $address;
 
     public function __construct($_titolo, $_regista, $_anno, $_genere, $_is_available, MovieTheater $_address)
     {
