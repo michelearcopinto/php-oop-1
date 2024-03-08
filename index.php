@@ -1,7 +1,5 @@
 <?php
 
-// uelap
-
 class MovieTheater
 {
     public $street;
